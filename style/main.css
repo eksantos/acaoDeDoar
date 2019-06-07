@@ -1,0 +1,334 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+	*{
+		margin: 0;
+		padding: 0;
+		border:0;
+	}
+	a#top{
+		display: block;
+		background-color: orange;
+		position:fixed;
+   		width:50px;
+    	height:50px;
+    	right: 50px;
+    	bottom: 2px;
+    	border-radius: 60px;
+    	font-weight: bold;
+    	text-align: center;
+		text-decoration:none;
+		font-size: 1em;
+	}
+
+
+	/*barraAcessibilidade*/
+	.contr{background-color:black; color: white;}
+	.mudaCorBot{background-color:black; border:1px solid white;}
+
+	div#barraAcessibilidade{
+		background-color: #1c0026;
+		width: 100%;
+		font-size: 0.8em;
+		padding: 0.3%;
+		margin-bottom: 2%; 
+	}
+	div#barraAcessibilidade ul li a{
+		text-decoration:none;
+		color: white;
+		display: inline;
+		margin-left: 1%;
+		padding: 0.3%;
+	}
+	div#barraAcessibilidade ul li{
+		display: inline;
+	}
+
+	div#barraAcessibilidade ul li a:hover{
+		background-color: white;
+		color: #1c0026;
+		padding: 0.3%;
+	}
+
+	body#container{
+		font-family: 'Quicksand', sans-serif;
+		width: 100%;
+		height: auto;
+	}
+
+	header{
+		background-color: #340244;
+		box-sizing: border-box;
+		width: 100%;
+		height: 33rem;
+		padding: 0 10%;
+    }
+    div#intro{
+    	float: none;
+    	color: white;
+    	margin-top: 12%;
+    	width: 40%;
+    	margin-bottom: 2%;
+
+    }
+    .styleSpan{
+    	color: #db4a63;
+    }
+    div#intro h2{
+    	font-size: 1.5em;
+    	font-weight: normal;
+    }
+
+    div#intro p{
+    	width: 49%;
+    	padding: 2% 0;
+    }
+    div a#botQuero{
+    	background-color: #db4a63;
+    	text-decoration: none;
+    	color: white; 
+    	padding: 1% 2%;
+    }
+    span.nJanela{
+    	font-size: 0.9em;
+    }
+
+    div a#botQuero:hover{
+    	background-color: white;
+    	color:#db4a63;
+    }
+    
+    div#video{
+    	margin-top: -16%;
+    	float: right;
+  		width: 55%;
+  		height: 15rem;
+  		background-color: #FF8C00;
+    }
+ 
+
+    div#logo img{
+    	float: left;
+    	margin: 0 1%;
+    } 
+
+	div#logo h1{
+		font-size: 1.5em;
+		color:#db4a63; 
+	}
+
+	div#logotipo{
+		color: white;
+		font-size: 0.7em;
+	}
+
+	div#logo{
+		float: left;
+		width:35%;
+	}	
+
+	nav ul#ulMenu{
+		color: white;
+		box-sizing: border-box;
+		list-style-type:none;
+		display:inline-block;
+		float: right;
+		width: 480px;
+	}
+	nav ul#ulMenu li{
+		display: inline;
+		padding: 0.5%;
+	}
+
+	nav ul#ulMenu li a{
+		color: white;
+		text-decoration: none;
+	}
+
+	nav ul#ulMenu li a:hover{
+		/*border-bottom: thick dotted #CF596D;*/
+		color: #db4a63;
+	}
+
+	/*LOGIN/CADASTRO*/
+	nav ul#ulMenu li#LogCad{
+		border: 1px solid #db4a63;
+	}
+
+	nav ul#ulMenu li#LogCad a{
+		color: #db4a63;
+	}
+	/*link ativo*/
+	
+	.active{
+		border-bottom: 1px solid #db4a63;
+	}
+	
+	/*CAMINHO NO TOPO*/
+	div#breadcrumbs{
+		font-size: 0.8em;
+		margin: 13% 0;
+		color: white;
+	}
+	
+	/*FIM CAMINHO*/
+	
+	
+
+	div#conteudo{
+		box-sizing: border-box;
+		background-color: white;
+		width: 80%;
+		/*position: absolute;*/
+		margin-top: -5%;
+		margin-left: 10%;
+		padding: 0.5% 0.5%;
+	}
+
+	h2#hdoacoes{
+		color: #db4a63;
+		padding: 0.5% 0.5% 0.5% 0;
+		border-bottom: 1px solid #340244; 
+		margin: 2% 0;
+		font-weight: normal;
+	}
+
+	.objetos{
+		background-color: orange;
+		float: left;
+		height:10rem;
+		width: 24.2%;
+		color: white;
+		text-decoration: none;
+	}
+
+	#toys, #clothes, #clear, #book, #higiene, #moveis {
+		margin: 0 1% 1% 0;
+	}
+
+	#food, #eletronicos{
+		margin: 0 0 1% 0;
+	}
+
+	.roxo{
+		background-color: #340244;
+	}
+
+	.rosa{
+		background-color: #db4a63;
+	}
+
+    /*EVENTOS*/
+	section#campoEven{
+		width: 100%;
+		padding-top: 35%;
+	}
+	div#eventIV{
+		width: 25%;
+		margin: 1% 0 0 0;
+		float: left;
+	}
+	div#eventI, div#eventII,div#eventIII{
+		width: 24%;
+		margin: 1% 1% 0 0;
+		float: left;
+	}
+
+	
+	/*h2*/
+	#heventos, #hInst, #hSobre{
+		color: #db4a63;
+		padding: 0.5% 0.5% 0.5% 0;
+		border-bottom: 1px solid #340244; 
+		margin: 2% 0;
+		font-weight: normal;
+	}
+	.bordaBottom{
+		border-bottom: 2px solid #db4a63;
+		padding-bottom: 0.4%;
+	}
+
+	/*INSTITUIÇOES*/
+	section#campoInst{
+		width: 100%;
+		padding-top: 5%;
+	}
+
+	section#campoInst p{
+		padding: 1% 0;
+	}
+
+	img{
+		max-width: 100%;
+	    height: auto;
+	}
+	div#maisDiv{
+		width: 100%;
+		display: flex;
+        display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+	    justify-content: center;
+    	align-items: center;
+	}
+
+	a#maisEven{
+		background-color: #340244;
+		
+		margin: 3% 0;
+		color:white;
+		padding: 0.1%;
+		text-decoration: none;		
+		text-align: center;
+		font-size: 2em; 
+		width: 10%;
+	}
+
+	p {padding: 1% 0;}
+	
+
+	span.opc{
+		position: absolute;
+		display: block;
+		bottom: 10%;
+        left: 50%;
+        margin-right: -50%;
+        /*'translate' para mover o elemento 50% de sua largura para a esquerda.*/
+        transform: translate(-50%, -50%);
+	}
+	.objetos{
+		position: relative;
+		text-align: center;
+	}
+	.imaOpc{ padding: 10%;}
+	
+	a#higiene img, a#clothes img, a#food img{ padding: 15%;	}
+
+	
+
+
+/*Rodape*/
+	footer{
+		background-color: #340244;
+		width: 100%;
+		color: white;
+	}
+
+	div#roCont{
+		width: 80%;
+		margin-top: 10%;
+		margin-left: 10%;
+		padding: 10% 0.5%;
+	}
+	div#roCont ul{
+		list-style-type:none;
+	}
+
+	div#roCont ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	/*Fim rodape*/
+
+	
+
+
+
+

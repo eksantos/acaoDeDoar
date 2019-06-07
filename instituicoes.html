@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Instituições cadastradas no site Ação de doar</title>
+	<link rel="stylesheet" type="text/css" href="style/instituicoes.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/acessInst.js"></script>
+</head>
+<body id="container">
+			<header role="banner">
+				<div id="barraAcessibilidade">   
+					<ul>   
+						<li><a href="#hInst" accesskey="1">[1] Ir para conteúdo</a></li>   
+						<li><a href="#Menu" accesskey="2">[2] Ir para menu principal</a></li>   
+						<li><a href="#rodape" accesskey="3">[3] Ir para rodapé</a></li>
+						<li><a href="mapaDoSite.html">Mapa do Site</a></li>   
+						
+												
+						<li id="contraste" style="margin-left: 30%;color:white; cursor:pointer;">Contraste</li>
+						<li id="mais" style="color:white; margin-left: 1%; cursor:pointer">A+</li>
+						<li id="menos" style="color:white; margin-left: 1%; cursor:pointer">A-</li>
+					</ul>   
+				</div>  
+
+				<div id="logo">
+					<img src="imgs/logo.png" alt=" ">
+			 		<h1>Ação de Doar</h1>
+			 		<div id="logotipo">Doar sua ação, faça sua doação.</div>
+				</div>
+
+				<nav id="menuPrincipal">
+					<ul id="ulMenu">
+						<li><a href="index.html" id="Menu" class="menu"> Home </a></li>
+						<li><a href="doacoes.html" class="menu"> Doações </a></li>
+						<li><a href="instituicoes.html" class="menu active"> Instituições </a></li>
+						<li><a href="eventos.html" class="menu"> Eventos </a></li>
+						<li><a href="contato.html" class="menu"> Contato </a></li>
+						<li id="LogCad"><a href="#"> Login/Cadastro </a></li>
+					</ul>
+				</nav>
+				<div id="breadcrumbs">Você está em: <a href="index.html">Home</a> > <span class="breadcrumbs">Instituições</span></div>
+			</header>
+		
+	<div id="conteudo">
+		<div id="campoInst">
+			<h2 id="hInst"><span class="bordaBottom">Instituições</span></h2>
+			<p>Veja aqui a lista de organizações sociais ou Instituições que estão cadrastradas em nossa plataforma.</p>
+			<form>
+				<p>Se desejar, filtre por:</p>
+				<p>
+					<label>
+					Instituição que apoie:
+					<select name="tipo" id="tipoInst">
+						<option value="selecionar">Selecionar</option>
+						<option value="Apoio a Mulheres">Mulheres</option>       
+						<option value="Crianças">Crianças</option>        
+						<option value="Cultura">Cultura</option>        
+						<option value="Dependentes Químicos">Dependentes Químicos</option>        
+						<option value="Direitos Humanos">Direitos Humanos</option>        						
+						<option value="Educação">Educação</option>        
+						<option value="Educação Ambiental">Educação Ambiental</option>        						
+						<option value="Idosos">Idosos</option>        
+						<option value="Meio Ambiente">Meio Ambiente</option>            	
+						<option value="Situações de Emergência">Situações de Emergência</option>          
+					</select>
+					</label>
+					<input type="button" name="confirmar" value="Confirmar" class="btconfirmar"> 
+				</p>
+
+				<p>
+					<label>
+					Estado:
+					<select name="estado" id="estado">
+						<option value="selecionar">Selecionar</option>
+						<option value="Acre">Acre</option>       
+						<option value="Alagoas">Alagoas</option>        
+						<option value="Amapa">Amapá</option>        
+						<option value="Amazonas">Amazonas</option>        
+						<option value="Bahia">Bahia</option>        						
+						<option value="Ceara">Ceará</option>        
+						<option value="Distrito Federal">Distrito Federal</option>        						
+						<option value="Espirito Santos">Espírito Santos</option>        
+						<option value="Goias">Goiás</option>            	
+						<option value="Maranhao">Maranhão</option>  
+						<option value="Mato Grosso">Mato Grosso</option>            	
+						<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+						<option value="Minas Gerais">Minas Gerais</option>            	
+						<option value="Para">Pará</option>
+						<option value="Paraiba">Paraíba</option>            	
+						<option value="Rio de Janeiro">Rio de Janeiro</option>
+						<option value="Sao Paulo">São Paulo</option>            	
+						<option value="Sergipe">Sergipe</option>      
+					</select>
+					</label>
+					<input type="button" name="confirmar" value="Confirmar" class="btconfirmar">
+				</p>
+
+				<p>
+					<label>
+					Cidade:
+					<select name="cidade" id="cidade">
+						<option value="selecionar">Selecionar</option>
+						<option value="Cidade">Cidade</option>       
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option>
+						<option value="Cidade">Cidade</option>       
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option> 
+						<option value="Cidade">Cidade</option>  
+					</select>
+					</label>
+					<input type="button" name="confirmar" value="Confirmar" class="btconfirmar">
+				</p>
+				
+				<div>
+        			<input name="commit" type="submit" value="FILTRAR" />
+      			</div>
+
+			</form>
+
+			<h3>FILTRO (Tipo, Estado, Cidade)</h3>
+
+			<div class="impa">Instituição A</div>
+			<a href="#" class="Sb">Saiba Mais...</a>
+			<div class="adr">
+				<p> Uma breve explicação da instituição...</p>
+				<p class="street-address">Av. Bartolomeu de Gusmão, 110, <span class="locality">Santos</span> - <span class="redion">SP</span></p> 
+				<p class="tel">(13) 3227-6003</p>
+			</div>
+			
+			<div class="par">Instituição B</div>
+			<a href="#" class="Sb">Saiba Mais...</a>
+			<div class="adr">
+				<p> Uma breve explicação da instituição...</p>
+				<p class="street-address">Av. Bartolomeu de Gusmão, 110, <span class="locality">Santos</span> - <span class="redion">SP</span></p> 
+				<p class="tel">(13) 3227-6003</p>
+			</div>
+
+			<div class="impa">Instituição C</div>
+			<a href="#" class="Sb">Saiba Mais...</a>
+			<div class="adr">
+				<p> Uma breve explicação da instituição...</p>
+				<p class="street-address">Av. Bartolomeu de Gusmão, 110, <span class="locality">Santos</span> - <span class="redion">SP</span></p> 
+				<p class="tel">(13) 3227-6003</p>
+			</div>
+
+			<div class="par">Instituição D</div>
+			<a href="#" class="Sb">Saiba Mais...</a>			
+			<div class="adr">
+				<p> Uma breve explicação da instituição...</p>
+				<p class="street-address">Av. Bartolomeu de Gusmão, 110, <span class="locality">Santos</span> - <span class="redion">SP</span></p> 
+				<p class="tel">(13) 3227-6003</p>
+			</div>
+
+			<div class="impa">Instituição E</div>
+			<a href="#" class="Sb">Saiba Mais...</a>
+			<div class="adr">
+				<p> Uma breve explicação da instituição...</p>
+				<p class="street-address">Av. Bartolomeu de Gusmão, 110, <span class="locality">Santos</span> - <span class="redion">SP</span></p> 
+				<p class="tel">(13) 3227-6003</p>
+			</div>
+
+			<div class="par">Instituição F</div>
+			<a href="#" class="Sb">Saiba Mais...</a>
+			<div class="adr">
+				<p> Uma breve explicação da instituição...</p>
+				<p class="street-address">Av. Bartolomeu de Gusmão, 110, <span class="locality">Santos</span> - <span class="redion">SP</span></p> 
+				<p class="tel">(13) 3227-6003</p>
+			</div>
+		</div>	
+
+	</div>
+	<a href="#" id="top"><img src="imgs/seta.png" alt="Seta apontando para o topo" id="topo"></a>
+	<footer role="contentinfo" id="rodape">
+		<div id="roCont">
+			<ul>
+				<li><a href="#">Taxas e Termos de Uso</a></li>
+				<li><a href="#">Na mídia</a></li>
+				<li><a href="contato.html">Fale Conosco</a></li>
+			</ul>
+		
+			
+		</div>
+	</footer>
+	
+</body>
+</html>

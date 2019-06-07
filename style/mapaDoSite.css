@@ -1,0 +1,216 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+	*{
+		margin: 0;
+		padding: 0;
+		border:0;
+	}
+
+	/*barraAcessibilidade*/
+	div#barraAcessibilidade{
+		background-color: #1c0026;
+		width: 100%;
+		font-size: 0.8em;
+		padding: 0.3%;
+		margin-bottom: 2%; 
+	}
+	div#barraAcessibilidade ul li a{
+		text-decoration:none;
+		color: white;
+		display: inline;
+		margin-left: 1%;
+		padding: 0.3%;
+	}
+	div#barraAcessibilidade ul li{
+		display: inline;
+	}
+
+	div#barraAcessibilidade ul li a:hover{
+		background-color: white;
+		color: #1c0026;
+		padding: 0.3%;
+	}
+
+	body#container{
+		font-family: 'Quicksand', sans-serif;
+		width: 100%;
+		height: auto;
+	}
+
+	header{
+		background-color: #340244;
+		box-sizing: border-box;
+		width: 100%;
+		height: 16.5rem;
+		padding: 0 10%;
+    }
+    div#intro{
+    	float: none;
+    	color: white;
+    	margin-top: 12%;
+    	width: 40%;
+    	margin-bottom: 2%;
+
+    }
+    .styleSpan{
+    	color: #db4a63;
+    }
+    div#intro h2{
+    	font-size: 1.5em;
+    	font-weight: normal;
+    }
+
+    div#intro p{
+    	width: 49%;
+    	padding: 2% 0;
+    }
+    
+    div#logo img{
+    	float: left;
+    	margin: 0 1%;
+    } 
+
+	div#logo h1{
+		font-size: 1.5em;
+		color:#db4a63; 
+	}
+
+	div#logotipo{
+		color: white;
+		font-size: 0.7em;
+	}
+
+	div#logo{
+		float: left;
+		width:35%;
+	}	
+
+	nav ul#ulMenu{
+		color: white;
+		list-style-type:none;
+		display:inline-block;
+		float: right;
+		width: 480px;
+	}
+
+	nav ul#ulMenu li{
+		display: inline;
+		padding: 0.5%;
+	}
+
+	nav ul#ulMenu li a{
+		color: white;
+		text-decoration: none;
+	}
+
+	nav ul#ulMenu li a:hover{
+		/*border-bottom: thick dotted #CF596D;*/
+		color: #db4a63;
+	}
+
+	/*link ativo*/
+	
+	.active{
+		border-bottom: 1px solid #db4a63;
+	}
+
+	/*LOGIN/CADASTRO*/
+	nav ul#ulMenu li#LogCad{
+		border: 1px solid #db4a63;
+	}
+
+	nav ul#ulMenu li#LogCad a{
+		color: #db4a63;
+	}
+	/*CAMINHO NO TOPO*/
+	div#breadcrumbs{
+		font-size: 0.8em;
+		margin: 14% 0;
+		color: white;
+	}
+	div#breadcrumbs a{
+		color: white;
+	}
+	span.breadcrumbs{
+		color: white;
+		/*text-decoration: underline;
+		text-decoration-color: white;*/
+	}
+	/*FIM CAMINHO*/
+
+	
+		
+	div#conteudo{
+		box-sizing: border-box;
+		background-color: white;
+		width: 80%;
+		/*position: absolute;*/
+		margin-top: -5%;
+		margin-left: 10%;
+		padding: 0.5% 0.5%;
+	}
+	img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	h2#hMap{
+		color: #db4a63;
+		padding: 0.5% 0.5% 0.5% 0;
+		border-bottom: 1px solid #340244; 
+		margin: 2% 0;
+		font-weight: normal;
+	}
+
+	.bordaBottom{
+		border-bottom: 2px solid #db4a63;
+		padding-bottom: 0.4%;
+	}
+
+	ul#linksMapa{
+		margin: 2%; 
+		padding: 0.5%;
+	}
+
+	ul#linksMapa li a{
+		color: blue;
+		text-decoration: none;
+	}
+	ul#linksMapa li a:hover{
+		text-decoration: underline;
+	}
+
+	.subLogin{
+		margin: 0 2%;
+		list-style-type:disc;
+		font-size: 0.9em;
+	}
+
+
+
+
+	}
+	
+	/*Rodape*/
+	footer{
+		background-color: #340244;
+		width: 100%;
+		color: white;
+	}
+
+	div#roCont{
+		width: 80%;
+		margin-top: 10%;
+		margin-left: 10%;
+		padding: 14% 0.5%;
+	}
+	div#roCont ul{
+		list-style-type:none;
+	}
+
+	div#roCont ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	/*Fim rodape*/
+	
